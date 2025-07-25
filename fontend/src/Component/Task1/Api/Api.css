@@ -1,0 +1,135 @@
+.main-container {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+}
+.api-container {
+  /* border: 1px solid b  lack; */
+  width: 90%;
+  height: auto;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.shop-head {
+  margin-top: 20px;
+  text-align: center;
+}
+.cart-contianer {
+  border: 1px solid rgb(107, 107, 107);
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 450px;
+  box-shadow: 1px 1px 15px rgb(182, 182, 182);
+}
+
+.cart-image {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 70%;
+  display: flex;
+  overflow: hidden;
+  border-radius: 4px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.cart-text {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 10px;
+  h2 {
+    font-size: 22px;
+  }
+}
+
+.cartx {
+  display: flex;
+  margin-top: 10px;
+
+  p {
+    width: 50%;
+    font-size: 20px;
+    em {
+      font-weight: 600;
+    }
+  }
+  span {
+    border: 1px solid rgb(152, 101, 6);
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    height: max-content;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: rgb(234, 176, 69);
+    cursor: pointer;
+  }
+}
+
+.cart-image:hover {
+  img {
+    scale: 1.2;
+    transition: all 0.5s;
+  }
+}
+
+.cart-item-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cart-details {
+  border: 1px solid rgb(224, 224, 224);
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 1420px) {
+  .api-container {
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .api-container {
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .api-container {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 950px) {
+  .api-container {
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .api-container {
+    width: 70%;
+    grid-template-columns: 1fr;
+  }
+}

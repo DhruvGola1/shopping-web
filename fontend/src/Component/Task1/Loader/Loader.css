@@ -1,0 +1,28 @@
+.loader-container {
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+.loading-icon {
+  /* border: 1px solid black; */
+  font-size: 35px;
+}
+
+@keyframes trsfom {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icons {
+  animation: trsfom 2s ease infinite;
+}
+.loading-text {
+  font-size: 30px;
+  /* border: 1px solid black; */
+}

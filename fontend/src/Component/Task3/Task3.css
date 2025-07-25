@@ -1,0 +1,120 @@
+.tk-main-container {
+  box-sizing: border-box;
+  min-height: 800px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+  height: auto;
+  background-color: #2c3e50;
+  flex-direction: column;
+}
+.task3-container {
+  width: 40%;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #aecbe9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.task3-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.task3-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.task3-form input,
+.task3-form textarea {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.3s ease;
+}
+
+.task3-form input:focus,
+.task3-form textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.task-post1 {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-post1:hover {
+  background-color: #219150;
+}
+
+.task3-post {
+  background-color: white;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-left: 5px solid #2980b9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.task3-h3 {
+  margin: 0 0 5px;
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+.task3-p {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.task3-sml {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.task3-edit,
+.task3-delete {
+  margin-right: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task3-edit {
+  background-color: #f39c12;
+}
+
+.task3-edit:hover {
+  background-color: #d78e0c;
+}
+
+.task3-delete {
+  background-color: #e74c3c;
+}
+
+.task3-delete:hover {
+  background-color: #c0392b;
+}
